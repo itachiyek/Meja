@@ -80,13 +80,13 @@ function Letter() {
               className="px-4 py-2 flex justify-center items-center bg-white/20 gap-2 hover:bg-white/30 backdrop-blur-sm text-white text-sm sm:text-base border border-white/50 rounded-lg"
               onClick={() => navigate('/recap')}
             >
-              <ArrowLeft />  Previous page
+              <ArrowLeft />  Zurück
             </button>
             <button
               className="px-4 py-2 flex justify-center items-center bg-white/20 gap-2 hover:bg-white/30 backdrop-blur-sm text-white text-sm sm:text-base border border-white/50 rounded-lg"
               onClick={() => navigate('/closing')}
             >
-              Next page <ArrowRight />
+              Nächste Seite <ArrowRight />
             </button>
           </div>
         

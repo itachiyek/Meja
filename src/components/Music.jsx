@@ -3,65 +3,58 @@ import { ArrowLeft } from "./icons";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useRef } from "react";
-import { heavenly,sparks,brandy,bruno,greenday,kanye,sunsetz,souljaboy } from "../assets";
+import { p1,p2,p3,p4,p5,p6,p7,p8 } from "../assets";
 
 function Music() {
   const navigate = useNavigate();
   // Customize and add your own songs
   const songs = [
     {
-      title: "Heavenly",
-      artist: "Cigarettes After Sex",
-      albumCover: heavenly, 
-      left: "5%",
-      top: "5%",
+      title: "Giving some love",
+      albumCover: p1, 
+      left: '35%',
+      top: '50%'
+      
     },
     {
-      title: "The Boy Is Mine",
-      artist: "Brandy, Monica",
-      albumCover: brandy, 
+      title: "You did it!",
+      albumCover: p3, 
       left: "40%",
       top: "15%",
     },
     {
-      title: "Die With A Smile",
-      artist: "Lady Gaga, Bruno Mars",
-      albumCover: bruno, 
+      title: "You can do it!",
+      albumCover: p4, 
       left: '15%',
       top: '40%',
     },
     {
-      title: "Last Night on Earth",
-      artist: "Green Day",
-      albumCover: greenday, 
+      title: "My Mood",
+      albumCover: p5, 
       left: '30%',
       top: '75%',
     },
     {
-      title: "American Boy",
-      artist: "Estelle, Kanye West",
-      albumCover: kanye, 
+      title: "Verliebt sein Blick",
+      albumCover: p6, 
       left: '5%',
       top: '65%',
     },
     {
-      title: "Sparks",
-      artist: "Coldplay",
-      albumCover: sparks, 
+      title: "Yum yum",
+      albumCover: p2, 
       left: '25%',
       top: '90%',
     },
     {
-      title: "Kiss Me Thru The Phone",
-      artist: "Soulja Boy, Sammie",
-      albumCover: souljaboy, 
-      left: '35%',
-      top: '50%',
+      title: "Dream",
+      albumCover: p8, 
+      left: "5%",
+      top: "5%",
     },
     {
-      title: "Sunsetz",
-      artist: "Cigarettes After Sex",
-      albumCover: sunsetz, 
+      title: "Sunday Mood",
+      albumCover: p7, 
       left: "10%",
       top: "25%",
     },
@@ -72,7 +65,7 @@ function Music() {
     <div className="min-h-screen bg-black/20 flex flex-col items-center justify-center">
     <div className="w-[90%] max-w-[400px]">
       <h1 className="text-2xl sm:text-2xl font-bold -mb-4 mt-4 drop-shadow-lg text-white text-center">
-        Songs that remind me of you
+        Moods
       </h1>
 
       <div ref={containerRef}  className=" relative w-full h-[40rem] rounded-lg overflow-hidden mt-8 mb-12">

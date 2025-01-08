@@ -10,7 +10,7 @@ function Recap() {
     <div className="min-h-screen bg-black/20 flex flex-col items-center justify-center p-4">
     <div className="w-full max-w-sm sm:max-w-md text-center">
       <h1 className="text-2xl sm:text-4xl font-bold mb-8 text-white drop-shadow-lg">
-        Let's recap our time together
+        Kurzer Rückblick
       </h1>
   
       <div className="flex flex-wrap justify-center gap-10 mb-12">
@@ -30,7 +30,7 @@ function Recap() {
               </div>
             </button>
             <span className="mt-4 text-sm font-medium text-white animate-bounce">
-              Click me!
+              Klick mich!
             </span>
           </div>
         ))}
@@ -41,13 +41,13 @@ function Recap() {
           className="px-4 py-2 flex justify-center items-center bg-white/20 gap-2 hover:bg-white/30 backdrop-blur-sm text-white text-sm sm:text-base border border-white/50 rounded-lg"
           onClick={() => navigate('/timer')}
         >
-          <ArrowLeft />  Previous page
+          <ArrowLeft />  Zurück
         </button>
         <button
           className="px-4 py-2 flex justify-center items-center bg-white/20 gap-2 hover:bg-white/30 backdrop-blur-sm text-white text-sm sm:text-base border border-white/50 rounded-lg"
           onClick={() => navigate('/letter')}
         >
-           Next page <ArrowRight />
+           Nächste Seite <ArrowRight />
         </button>
       </div>
     </div>

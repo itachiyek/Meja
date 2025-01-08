@@ -11,11 +11,11 @@ function Question() {
   const inputRef = useRef(null);
 
   // Customize your own Trending Searches
-  const trends = ['Why is my bf so cute?', 'Why does Rheina love him more?', `Rheina's birthdate (coz her bf forgets)`,]
+  const trends = ['Warum ist mein Freund so süß?', 'Was kann ich kochen, damit mein Freund glücklich ist?']
 
   const handleSearch = (e) => {
     e.preventDefault()
-    if (searchQuery.toLowerCase() === 'how long have we been together?' || 'how long have we been together') {
+    if (searchQuery.toLowerCase() === 'Wie lange sind wir Zusammen?' || 'Wie lange sind wir Zusammen?') {
           navigate("/timer");
 
     }
@@ -82,7 +82,7 @@ function Question() {
             </div>
           </form>
           <div className='mt-10  px-5 text-white/50'>
-            <p>Pro tip: try searching "How long have we been together?" ;)</p>
+            <p>Pro tip: Such nach "Wie lang sind wir schon Zusammen?" ;)</p>
           </div>
         </div>
       )}
